@@ -14,10 +14,10 @@ const static_path = path.join(__dirname, "/static");
  const db = knex({
    client: 'pg',
     connection: {
-        host: 'localhost',
+        host: 'containers-us-west-137.railway.app',
         user: 'postgres',
-        password: 'Sohel@123',
-        database: 'chatApp'
+        password: 'bgm7s6QrQQ3OlMRMXTpV',
+        database: 'railway'
     }
  });
 // const knex = require('knex')({
